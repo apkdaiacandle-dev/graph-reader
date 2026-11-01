@@ -25,3 +25,8 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview:1.7.8")
     debugImplementation("androidx.compose.ui:ui-tooling:1.7.8")
 }
+
+
+kotlin {
+    jvmToolchain(17)
+}
